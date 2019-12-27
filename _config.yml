@@ -1,11 +1,11 @@
 # Site settings
 author: Pierre-Olivier Ariston
-title: 
+title: Data Science and me.
 header-img: img/home-bg.png
 email: poariston@gmail.com
 copyright_name: Pierre-Olivier Ariston
 description: > # this means to ignore newlines until "baseurl:"
-  
+  2019 and beyond
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  poariston
