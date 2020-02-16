@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "The One with the chained indexing"
+title:      "The One with the Chained Indexing"
 date:       2020-02-16 23:22:10 +0000
 permalink:  the_one_with_the_chained_indexing
 ---
