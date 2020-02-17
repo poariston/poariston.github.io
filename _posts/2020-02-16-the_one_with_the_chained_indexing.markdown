@@ -40,9 +40,9 @@ Chained indexing means two subset selections immediately following each other in
 The warning message is a Pandas message, but chained indexing is a concept that applies both to Python and Pandas.
 
 Examples:
-1. With a Python list.
-a=[2,4,6,8,9,3,2,1,6,7]
-a[2:6][3]=999
+1. With a Python list.<br>
+a=[2,4,6,8,9,3,2,1,6,7]<br>
+a[2:6][3]=999<br>
 This will not trigger any warning message, but the list a is left unchanged!
 
 2. With a Pandas dataframe
