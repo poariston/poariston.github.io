@@ -47,7 +47,7 @@ This will not trigger any warning message, but the list a is left unchanged!
 
 2. With a Pandas dataframe<br><br>
 import pandas as pd<br>
-df=pd.DataFrame([[1,2,3],[5,6,7],[999,10,11]], columns = ['A','B','C'])<br>
+df=pd.DataFrame([[1,2,3],[5,6,7],[999,10,11]], columns = ['A' , 'B' , 'C'])<br>
 df[df['C'] > 9]['A'] = 0 <br><br>
 This will trigger the SettingWithCopy Pandas warning message and the dataframe will be left unchanged!
 
