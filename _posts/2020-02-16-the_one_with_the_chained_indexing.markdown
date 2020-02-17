@@ -39,6 +39,14 @@ Chained indexing means two subset selections immediately following each other in
 
 The warning message is a Pandas message, but chained indexing is a concept that applies both to Python and Pandas.
 
+Examples:
+1. With a Python list.
+a=[2,4,6,8,9,3,2,1,6,7]
+a[2:6][3]=999
+This will not trigger any warning message, but the list a is left unchanged!
+
+2. With a Pandas dataframe
+
 Doing two subsequent subset selections (whether in one line of code or 2) is dangerous because after the first selection, we don't always know whether it is a copy or a view of the original object that gets created. 
 
 If the first selection resulted in a copy, then a new object was created and the assigned value (in step 3) will be assigned to the copy not the original.
