@@ -8,11 +8,12 @@ permalink:  the_one_with_the_movie_business
 
 ### February 2020
 
-Still a work in progress. Still a work in progress. <br>
-I reached a milestone in my Online Data Science Bootcamp course: the end of the first “module”. The course is split into 5 modules and each one ends with a “project”. What is great about the projects is the relative freedom we are given to make up our own questions and figure out ourselves how to find answers. The topic was the movie business. We started from movie related data coming from websites such as Box Office Mojo, IMDB, Rotten Tomatoes and TheMovieDB.org.
-I want to share some of my findings because they were surprising to me, pushed me to reflect on them and investigate a bit further …
-I started with a basic question: Is the movie business a profitable business? What kind of average profit can a movie studio expect?
-Here are two images explaining how I tried to respond to that question.
+Still a work in progress. Still a work in progress. <br><br>
+I reached a milestone in my Online Data Science Bootcamp course: the end of the first “module”. The course is split into 5 modules and each one ends with a “project”. What is great about the projects is the relative freedom we are given to make up our own questions and figure out ourselves how to find answers. The topic was the movie business. We started from movie related data coming from websites such as Box Office Mojo, IMDB, Rotten Tomatoes and TheMovieDB.org.<br>
+I want to share some of my findings because they were surprising to me, pushed me to reflect on them and investigate a bit further.<br>
+I started with a basic question: Is the movie business a profitable business? What kind of average profit can a movie studio expect?<br>
+Here are two slides explaining how I tried to respond to that question.<br>
+
 Image 1
 Image 2
 For a short while, I felt good about having calculated a profit ratio rather than just taking the gross income $ amounts. After all, a movie that generated a lot of income may not have made a profit if its cost was high. To calculate the profit ratio, I divided the data labeled “worldwide_gross” by the “production_budget”. Actually, “profit ratio” is not a very good name for it. What I aimed for was to calculate a rate of return for each movie. But an industry where we can expect a rate of return of 3.67 seems too good to be true, and I started wondering whether my approach was not too simplistic.
