@@ -14,9 +14,7 @@ I want to share some of my findings because they were surprising to me, pushed m
 I started with a basic question: Is the movie business a profitable business? What kind of average profit can a movie studio expect?<br>
 Here are two slides explaining how I tried to respond to that question.<br>
 
-![image1](https://github.com/poariston/poariston.github.io/blob/master/img/profitability1of2.jpg)
-
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-mod-1-project-v2-1/master/awesome.gif)
+![image1](Images/profitability1of2.jpg)
 
 For a short while, I felt good about having calculated a profit ratio rather than just taking the gross income $ amounts. After all, a movie that generated a lot of income may not have made a profit if its cost was high. To calculate the profit ratio, I divided the data labeled “worldwide_gross” by the “production_budget”. Actually, “profit ratio” is not a very good name for it. What I aimed for was to calculate a rate of return for each movie. But an industry where we can expect a rate of return of 3.67 seems too good to be true, and I started wondering whether my approach was not too simplistic.
 Indeed, I think there were multiple issues with my approach.
