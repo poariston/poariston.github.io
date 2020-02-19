@@ -27,7 +27,7 @@ Pondering on my little “project” experience, I need to accept the fact that 
 
 
 References:
-Here are some interesting websites where I got some of the information I used in this post.
-[https://stephenfollows.com/hollywood-movies-make-a-profit/](https://stephenfollows.com/hollywood-movies-make-a-profit/)
-[https://medium.com/swlh/the-user-centred-data-science-revolution-9f41ceccd15e](https://medium.com/swlh/the-user-centred-data-science-revolution-9f41ceccd15e)
-[https://en.wikipedia.org/wiki/Hollywood_accounting](https://en.wikipedia.org/wiki/Hollywood_accounting)
+Here are some interesting websites where I got some of the information I used in this post.<br>
+[https://stephenfollows.com/hollywood-movies-make-a-profit/](https://stephenfollows.com/hollywood-movies-make-a-profit/)<br>
+[https://medium.com/swlh/the-user-centred-data-science-revolution-9f41ceccd15e](https://medium.com/swlh/the-user-centred-data-science-revolution-9f41ceccd15e)<br>
+[https://en.wikipedia.org/wiki/Hollywood_accounting](https://en.wikipedia.org/wiki/Hollywood_accounting)<br>

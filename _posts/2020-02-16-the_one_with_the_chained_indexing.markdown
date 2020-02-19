@@ -24,8 +24,8 @@ See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stabl
 
 When you follow the link, you get to a page of the Pandas User Guide warning you about chained indexing.
 The first time I read this page, I found it confusing. 
-It is only when I read the following blog post that I really understood it (thanks to my Flatiron teacher who found it for me!):
-[https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-part-4-c4216f84d388](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-part-4-c4216f84d388)  
+It is only when I read the following blog post that I really understood it (thanks to my Flatiron teacher who found it for me!):<br>
+[https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-part-4-c4216f84d388](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-part-4-c4216f84d388)<br>  
 I found the post clear, complete, and it made sense to me. 
 
 Here is my understanding:
