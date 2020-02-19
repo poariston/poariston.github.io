@@ -13,7 +13,7 @@ I reached a milestone in my Online Data Science Bootcamp course: the end of the 
 I want to share some of my findings because they were surprising to me, pushed me to reflect on them and investigate a bit further.<br>
 I started with a basic question: Is the movie business a profitable business? What kind of average profit can a movie studio expect?<br>
 Here are two slides explaining how I tried to respond to that question.<br>
-![](https://github.com/poariston/poariston.github.io/blob/master/img/profitability1of2.jpg)
+![image1](https://github.com/poariston/poariston.github.io/blob/master/img/profitability1of2.jpg)
 For a short while, I felt good about having calculated a profit ratio rather than just taking the gross income $ amounts. After all, a movie that generated a lot of income may not have made a profit if its cost was high. To calculate the profit ratio, I divided the data labeled “worldwide_gross” by the “production_budget”. Actually, “profit ratio” is not a very good name for it. What I aimed for was to calculate a rate of return for each movie. But an industry where we can expect a rate of return of 3.67 seems too good to be true, and I started wondering whether my approach was not too simplistic.
 Indeed, I think there were multiple issues with my approach.
 First, I don’t know how the data was collected. I just found 2 columns in a table labelled production_budget and worldwide_gross and I assumed they were respectively the total cost and the total income of the movies. The key word is “assumed”. Before starting to interpret the meaning of these numbers, I would need to know where they are coming from and how they were collected.
