@@ -1,20 +1,37 @@
-# Site settings
-author: Pierre-Olivier Ariston
-title: Data Science and me.
-header-img: img/home-bg.png
-email: poariston@gmail.com
-copyright_name: Pierre-Olivier Ariston
+title: Hello, world! I'm David Freeman
 description: > # this means to ignore newlines until "baseurl:"
-  2019 and beyond.
-baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: 
-github_username:  poariston
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
 
-# Build settings
+# Author Settings
+author: David Freeman # add your name
+author-img: david-freeman.jpg # add your photo
+about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
+social-twitter: # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github: artemsheludko # add your Github handle
+social-linkedin: # add your Linkedin handle
+social-email: # add your Email address
+
+# Disqus
+discus-identifier: mr-brown # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
 markdown: kramdown
-highlighter: rouge
-permalink: pretty
-paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
 
-gems: [jekyll-paginate, jekyll-feed]
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
