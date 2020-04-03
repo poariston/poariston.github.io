@@ -2,7 +2,10 @@
 layout: post
 title:      "The One with the Chained Indexing"
 date:       2020-02-16 23:22:10 +0000
-permalink:  the_one_with_the_chained_indexing
+description: My first block post. On python coding. # Add post description (optional)
+img:  # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [Python, Chained Indexing, Pandas, Copy, Subset, Code] # add tag
 ---
 
 
