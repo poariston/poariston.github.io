@@ -24,8 +24,8 @@ See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stabl
 
 When you follow the link, you get to a page of the Pandas User Guide warning you about chained indexing.
 The first time I read this page, I found it confusing. 
-It is only when I read the following blog post that I really understood it (thanks to my Flatiron teacher who found it for me!):<br>
-[https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-part-4-c4216f84d388](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-part-4-c4216f84d388)<br>  
+It is only when I read the following blog post that I really understood it (thanks to my Flatiron teacher who found it for me!):
+[link blog](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-part-4-c4216f84d388)  
 I found the post clear, complete, and it made sense to me. 
 
 Here is my understanding:
@@ -38,19 +38,6 @@ The SettingWithCopy warning is triggered by the following Pandas sequence:
 Chained indexing means two subset selections immediately following each other in the same line of code (steps 1 and 2 together). 
 
 The warning message is a Pandas message, but chained indexing is a concept that applies both to Python and Pandas.
-
-Examples:
-1. With a Python list.<br><br>
-a=[2,4,6,8,9,3,2,1,6,7]<br>
-a[2:6][3]=999<br><br>
-This will not trigger any warning message, but the list a is left unchanged!
-
-2. With a Pandas dataframe<br><br>
-import pandas as pd<br>
-df=pd.DataFrame([[1,2,3],[5,6,7],[999,10,11]], columns = ['A' , 'B' , 'C'])<br>
-df[df['C'] > 9]['A'] = 0 <br><br>
-This will trigger the SettingWithCopy Pandas warning message and the dataframe will be left unchanged!
-
 
 Doing two subsequent subset selections (whether in one line of code or 2) is dangerous because after the first selection, we don't always know whether it is a copy or a view of the original object that gets created. 
 
