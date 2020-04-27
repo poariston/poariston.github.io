@@ -47,6 +47,7 @@ In a world of economic men, the market value of a house could conceivably be the
 But I don't know any person who is 100% rational and if I ever buy a 3rd house, I am pretty sure I will end up paying a price that is different from the predicted market value.
 
 As a final note, I think it is clear that having access to a predicted market value has itself an impact on the house market.<br>
-Let's imagine that a prominent website like Zillow changes the formula for all the houses in an area. Let's say all houses get undervalued by 5%, would the actual selling price be affected?<br>
+Let's imagine that a prominent website like Zillow changes the formula for all the houses in an area. Let's say all houses get undervalued by 5%.<br>
+Would the actual selling price be affected?<br>
 I think so. So, I wonder if and how that feedback loop could be modeled.<br>
 
