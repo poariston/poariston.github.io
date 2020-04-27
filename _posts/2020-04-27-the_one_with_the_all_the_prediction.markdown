@@ -1,8 +1,8 @@
 ---
 layout: post
-title:      "The One with all the Prediction"
+title:      "The One with all the Predictions"
 date:       2020-04-27 15:22:10 +0000
-permalink:  the_one_with_all_the_prediction
+permalink:  the_one_with_all_the_predictions
 ---
 
 
@@ -49,5 +49,8 @@ But I don't know any person who is 100% rational and if I ever buy a 3rd house, 
 As a final note, I think it is clear that having access to a predicted market value has itself an impact on the house market.<br>
 Let's imagine that a prominent website like Zillow changes the formula for all the houses in an area. Let's say all houses get undervalued by 5%.<br>
 Would the actual selling price be affected?<br>
-I think so. So, I wonder if and how that feedback loop could be modeled.<br>
+I think so. So, I wonder if and how that feedback loop could be modeled.<br><br>
+
+PS: For reference, here is the github repository with my work and all the predictions:
+[https://poariston.github.io/the_one_with_all_the_predictions](https://poariston.github.io/the_one_with_all_the_predictions)<br>
 
