@@ -52,5 +52,5 @@ Would the actual selling price be affected?<br>
 I think so. So, I wonder if and how that feedback loop could be modeled.<br><br>
 
 PS: For reference, here is the github repository with my work and all the predictions:
-[https://poariston.github.io/the_one_with_all_the_predictions](https://poariston.github.io/the_one_with_all_the_predictions)<br>
+[https://github.com/poariston/LinearRegression_HousePricePrediction](https://github.com/poariston/LinearRegression_HousePricePrediction)<br>
 
